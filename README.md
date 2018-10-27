@@ -17,7 +17,7 @@ $ ./mvnw spring-boot:run
 2) (Update) $ curl -X POST 'localhost:8080/demo/update?id=8&name=Lincoln&email=pres@usa.com'
 3) (Delete) $ curl -X DELETE 'localhost:8080/demo/delete?id=8'
 
-### Reference:
-https://spring.io/guides/gs/accessing-data-mysql/#initial
+### References:
+Core ref: https://spring.io/guides/gs/accessing-data-mysql/#initial
 
 For switching from JAR to WAR: https://spring.io/guides/gs/convert-jar-to-war/
